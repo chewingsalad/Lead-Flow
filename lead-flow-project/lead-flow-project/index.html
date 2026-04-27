@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LEAD FLOW - SaaS Wireframe</title>
+  <link rel="stylesheet" href="assets/css/tokens.css">
+  <link rel="stylesheet" href="assets/css/layout.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+  <link rel="stylesheet" href="assets/css/wireframe.css">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <div class="brand">LEAD FLOW</div>
+      <nav id="sidebarNav" class="nav-list" aria-label="Main navigation"></nav>
+    </aside>
+
+    <main class="main-shell">
+      <header class="topbar">
+        <div class="search-box">Search campaign, CS, destination, insight...</div>
+        <div class="topbar-actions">
+          <button class="chip">Last 7 days</button>
+          <button class="chip">All Campaigns</button>
+          <button class="chip">Admin</button>
+        </div>
+      </header>
+
+      <div id="pageRoot" class="page-content"></div>
+    </main>
+  </div>
+
+  <script src="assets/js/data/navigation.js"></script>
+  <script src="assets/js/data/dashboard.js"></script>
+  <script src="assets/js/components/sidebar.js"></script>
+  <script src="assets/js/components/cards.js"></script>
+  <script src="assets/js/components/tables.js"></script>
+  <script src="assets/js/components/insights.js"></script>
+  <script src="assets/js/pages/dashboard-page.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
